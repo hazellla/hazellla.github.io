@@ -2,28 +2,18 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'hazellla', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 2, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: '',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'hazel-hanzhi-zhang',
+    website: 'https://hazellla.github.io/',
+    email: 'hanzhi2213@outlook.com',
   },
   resume: {
     fileUrl:
@@ -91,7 +81,7 @@ const config = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://github.com/hazellla/Portfolio/blob/main/Targeting-A-Housing-Subsidy.html',
     },
     {
       title: 'Project Name',
