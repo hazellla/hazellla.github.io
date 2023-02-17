@@ -81,7 +81,7 @@ const config = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: "/src/html/Targeting-A-Housing-Subsisdy.html",
+      link: "https://rpubs.com/hazellla/1004585",
     },
     {
       title: 'Project Name',
