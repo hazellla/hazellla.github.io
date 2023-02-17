@@ -81,7 +81,7 @@ const config = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://github.com/hazellla/Portfolio/blob/main/Targeting-A-Housing-Subsidy.html',
+      link: "/src/html/Targeting-A-Housing-Subsisdy.html",
     },
     {
       title: 'Project Name',
