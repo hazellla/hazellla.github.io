@@ -4,14 +4,14 @@ const config = {
   github: {
     username: 'hazellla', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 2, // How many projects to display.
+    limit: 1, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'hazel-hanzhi-zhang',
+    linkedin: 'www.linkedin.com/in/hazel-hanzhi-zhang-b80448261',
     website: 'https://hazellla.github.io/',
     email: 'hanzhi2213@outlook.com',
   },
@@ -35,6 +35,7 @@ const config = {
     'Antd',
     'Tailwind',
   ],
+  /*
   experiences: [
     {
       company: 'Company Name',
@@ -51,14 +52,14 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+   certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com'
     },
-  ], */
+  ], 
   education: [
     {
       institution: 'Institution Name',
@@ -72,37 +73,37 @@ const config = {
       from: '2012',
       to: '2014',
     },
-  ],
+  ],*/
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Spatial Analysis: Forecast Metro Train Delays',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: "https://rpubs.com/hazellla/1004585",
+      imageUrl: 'https://hazellla.github.io/Portfolio/img/train_cover.gif',
+      link: "https://hazellla.github.io/Portfolio/ForecastMetroTrainDelaysinandaroundNYC.html",
     },
     {
-      title: 'Project Name',
+      title: 'Spatial Analysis: Targeting A Housing Subsidy',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Use logistic regression model in targeting people who willing get house credit',
+      imageUrl: 'https://hazellla.github.io/Portfolio/img/TargetSubsity.jpg',
+      link: 'https://hazellla.github.io/Portfolio/Targeting-A-Housing-Subsidy.html#',
     },
     {
-      title: 'Project Name',
+      title: 'Spatial Analysis: Demand of Bike Share Prediction',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://hazellla.github.io/Portfolio/img/BikeShare.jpg',
+      link: 'https://hazellla.github.io/Portfolio/Bike_Share_Time_Space_HanzhiZhang.html',
     },
     {
-      title: 'Project Name',
+      title: 'Spatial Analysis: Spatial Risk Prediction',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://hazellla.github.io/Portfolio/img/SpatialRisk.jpg',
+      link: 'https://hazellla.github.io/Portfolio/GeospatialRiskPrediction.html',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
